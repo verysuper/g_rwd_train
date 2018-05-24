@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+font-family:"微軟正黑體",Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+font-size:100%;	
+}
+
+.container{
+max-width: 1200px;
+background: #ccc;
+margin: auto;
+}
+
+header,.slider,#banner,footer{width: 100%;}
+header{display: flex;}
+header .logo{width: 16.66666%;}
+.logo img,nav img,.slider img,#banner img,footer img{max-width: 100%;}
+header nav{width: 83.33334%;}
+
+#banner{display: flex;}
+#banner div{width: 33.33333%;}

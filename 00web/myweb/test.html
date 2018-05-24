@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style>
+	div{width: 150px;height: 150px;
+	/*float: left;會與magin:auto 衝突*/
+	display: inline-block;
+	/*margin:-5px;硬改，但解決方法是html的code*/
+	}
+	/*.all{background: #ccc;width: 100%;text-align: center;}*//*將全置中*/
+	.all{background: #ccc;width: auto;float: right;}/*將全靠右*/
+	.box1{background: #f00;}
+	.box2{background: #0f0;}
+	.box3{background: #00f;}
+	.box4{background: #ff0;}
+	.box5{background: #f0f;}
+	.box6{background: #0ff;}
+</style>
+</head>
+
+<body>
+	<!--.box${Box$}*6-->
+    <div class="all">
+    	<div class="box1">Box1</div><div class="box2">Box2</div><div class="box3">Box3</div><div class="box4">Box4</div><div class="box5">Box5</div><div class="box6">Box6</div>
+    </div>
+	
+</body>
+</html>
